@@ -1,8 +1,23 @@
 .qoute{
     display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+.rubrik{
+ display: grid;   
+ grid-template-columns: 1fr auto 1fr;
+}
+
+h1{
+    grid-column: 2 / 3;
 }
 
 .image{
     margin: auto;
     width: 40%;
+
+}
+.overlay{
+    align-self: center;
 }
