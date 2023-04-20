@@ -5,7 +5,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("dropmeny").style.top = "0";
   } else {
-    document.getElementById("dropmeny").style.top = "-50px";
+    document.getElementById("dropmeny").style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }
